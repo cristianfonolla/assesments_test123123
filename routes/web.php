@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/assesments', function () {
+    return view('assesments', ['assesments' => App\Assesment::all()]);
+
+});
