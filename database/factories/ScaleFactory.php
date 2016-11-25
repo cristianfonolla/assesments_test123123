@@ -12,22 +12,21 @@
 */
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-use Scool\Assesments\Models\Assesment;
 
-$factory->define(Assesment::class, function (Faker\Generator $faker) {
+
+
+use Scool\Assesments\Models\Scale;
+
+
+$factory->define(Scale::class, function (Faker\Generator $faker) {
 
     return [
 
-        'grade_id' => $faker->randomDigit,
-        'user_id' => $faker->randomDigit,
-        'item_id' => $faker->randomDigit,
-        'note' => $faker->sentence,
-        'item_type' => $faker->sentence,
-        'weight' => $faker->sentence,
-        'parent_grade_id' => $faker->randomDigit,
+
+        'name' => $faker->sentence,
+
 
 
     ];
 });
-
 

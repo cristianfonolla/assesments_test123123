@@ -11,11 +11,22 @@
 |
 */
 
+use Scool\Assesments\Models\Assesment;
+use Scool\Assesments\Models\Grade;
+use Scool\Assesments\Models\Scale;
+
 Route::get('/', function () {
     return view('welcome');
 });
 
 Route::get('/assesments', function () {
-    return view('assesments', ['assesments' => App\Assesment::all()]);
+    return view('assesments', ['assesments' => Assesment::all()]);
+});
 
+Route::get('/grade', function () {
+    return view('grade', ['grade' => Grade::all()]);
+});
+
+Route::get('/scale', function () {
+    return view('scale', ['scale' => Scale::all()]);
 });
