@@ -169,6 +169,7 @@ return [
         Scool\Assesments\Providers\AssesmentServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
+
         //
 
         /*
@@ -179,6 +180,7 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\RepositoryServiceProvider::class,
 
         /*
          * Acacha Llum Service Providers...

@@ -19,14 +19,20 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/assesments', function () {
-    return view('assesments', ['assesments' => Assesment::all()]);
-});
+Route::group(['middleware' => 'auth'], function () {
 
-Route::get('/grade', function () {
-    return view('grade', ['grade' => Grade::all()]);
-});
+//    Route::get('/assesments', function () {
+//        return view('assesments', ['assesments' => Assesment::all()]);
+//    });
 
-Route::get('/scale', function () {
-    return view('scale', ['scale' => Scale::all()]);
+    Route::get('/assesments','AssesmentsController@index');
+
+    Route::get('/grade', function () {
+        return view('grade', ['grade' => Grade::all()]);
+    });
+
+    Route::get('/scale', function () {
+        return view('scale', ['scale' => Scale::all()]);
+    });
+
 });
