@@ -21,7 +21,7 @@ Route::get('/', function () {
 
 Route::group(['middleware' => 'auth'], function () {
 
-    Route::get('/assesments','AssesmentsController@index');
+//    Route::get('/assesments','AssesmentsController@index');
 
 });
 

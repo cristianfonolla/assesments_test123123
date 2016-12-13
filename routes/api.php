@@ -20,6 +20,6 @@ Route::get('/user', function (Request $request) {
 
 Route::group(['prefix' => 'v1'], function () {
 
-    Route::resource('assesments' , 'AssesmentsController');
+//    Route::resource('assesments' , 'AssesmentsController');
 
 });
