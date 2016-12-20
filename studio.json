@@ -1,6 +1,7 @@
 {
     "version": 2,
     "paths": [
-        "/home/cristian/Code/sintesi/assesments"
+        "/home/cristian/Code/sintesi/assesments",
+        "../../stateful-eloquent"
     ]
 }
