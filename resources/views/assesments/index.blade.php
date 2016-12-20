@@ -28,13 +28,43 @@
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
-                        Aqui van assesments TODO
+                        <form role="form">
+                            <!-- text input -->
+                            <div class="form-group">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Enter ...">
+                            </div>
+
+
+                            {{--<!-- input states -->--}}
+                            {{--<div class="form-group has-success">--}}
+                            {{--<label class="control-label" for="inputSuccess"><i class="fa fa-check"></i> Input with success</label>--}}
+                            {{--<input type="text" class="form-control" id="inputSuccess" placeholder="Enter ...">--}}
+                            {{--<span class="help-block">Help block with success</span>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group has-warning">--}}
+                            {{--<label class="control-label" for="inputWarning"><i class="fa fa-bell-o"></i> Input with--}}
+                            {{--warning</label>--}}
+                            {{--<input type="text" class="form-control" id="inputWarning" placeholder="Enter ...">--}}
+                            {{--<span class="help-block">Help block with warning</span>--}}
+                            {{--</div>--}}
+                            {{--<div class="form-group has-error">--}}
+                            {{--<label class="control-label" for="inputError"><i class="fa fa-times-circle-o"></i> Input with--}}
+                            {{--error</label>--}}
+                            {{--<input type="text" class="form-control" id="inputError" placeholder="Enter ...">--}}
+                            {{--<span class="help-block">Help block with error</span>--}}
+                            {{--</div>--}}
+
+                            {{----}}
+
+                        </form>
                     </div>
                     <!-- /.box-body -->
+
+                    <div class="box-footer">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
                 </div>
-
-
-
 
 
 
