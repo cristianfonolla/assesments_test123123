@@ -1,7 +1,8 @@
 {
     "version": 2,
     "paths": [
-        "/home/cristian/Code/sintesi/assesments",
-        "../../stateful-eloquent"
+        "../../sintesi/assesments",
+        "../../stateful-eloquent",
+        "../../acacha/l5-repository"
     ]
 }

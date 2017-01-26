@@ -50,36 +50,33 @@
                         <form role="form" action="/assesments" method="post">
                             {{ csrf_field() }}
 
-                            <input type="hidden" >
-                            <!-- text input -->
-                            <div class="form-group">
-                                <label>Name</label>
-                                <input type="text" class="form-control" placeholder="Enter ...">
-                            </div>
+                            <input type="hidden" name="grade_id" value="1">
+                            <input type="hidden" name="user_id" value="1">
+                            <input type="hidden" name="item_id" value="1">
+                            <input type="hidden" name="item_type" value="1">
+                            <input type="hidden" name="weight" value="1">
+                            <input type="hidden" name="parent_grade_id" value="1">
 
-                            <input type="submit">
-                            {{--<!-- input states -->--}}
-                            {{--<div class="form-group has-success">--}}
-                            {{--<label class="control-label" for="inputSuccess"><i class="fa fa-check"></i> Input with success</label>--}}
-                            {{--<input type="text" class="form-control" id="inputSuccess" placeholder="Enter ...">--}}
-                            {{--<span class="help-block">Help block with success</span>--}}
-                            {{--</div>--}}
-                            {{--<div class="form-group has-warning">--}}
-                            {{--<label class="control-label" for="inputWarning"><i class="fa fa-bell-o"></i> Input with--}}
-                            {{--warning</label>--}}
-                            {{--<input type="text" class="form-control" id="inputWarning" placeholder="Enter ...">--}}
-                            {{--<span class="help-block">Help block with warning</span>--}}
-                            {{--</div>--}}
-                            {{--<div class="form-group has-error">--}}
-                            {{--<label class="control-label" for="inputError"><i class="fa fa-times-circle-o"></i> Input with--}}
-                            {{--error</label>--}}
-                            {{--<input type="text" class="form-control" id="inputError" placeholder="Enter ...">--}}
-                            {{--<span class="help-block">Help block with error</span>--}}
-                            {{--</div>--}}
+                            @if ($errors->has('note'))
+                                <div class="form-group has-warning">
+                                    <label class="control-label" for="inputWarning"><i class="fa fa-bell-o"></i>Note</label>
+                                    <input type="text" class="form-control" id="inputWarning" placeholder="Note" note="note">
+                                    @foreach ($errors->get('Note') as $message)
+                                        <span class="help-block"> {{ $message }}</span>
+                                    @endforeach
+                                </div>
+                            @else
+                                <div class="form-group">
+                                    <label>Note</label>
+                                    <input type="text" class="form-control" placeholder="Note" note="note">
+                                </div>
+                            @endif
 
-                            {{----}}
+                            <input type="submit" value="create">
+
 
                         </form>
+
                     </div>
                     <!-- /.box-body -->
 
