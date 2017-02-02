@@ -168,8 +168,7 @@ return [
          */
         Scool\Assesments\Providers\AssesmentServiceProvider::class,
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
-
-
+        Laravel\Tinker\TinkerServiceProvider::class,
         //
 
         /*
