@@ -5,8 +5,11 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 use Illuminate\Http\Request;
+<<<<<<< HEAD
 use Illuminate\Support\Facades\Password;
 use Illuminate\Http\JsonResponse;
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
 class ResetPasswordController extends Controller
 {
@@ -24,6 +27,7 @@ class ResetPasswordController extends Controller
     use ResetsPasswords;
 
     /**
+<<<<<<< HEAD
      * Reset the given user's password.
      *
      * @param  \Illuminate\Http\Request  $request
@@ -86,6 +90,8 @@ class ResetPasswordController extends Controller
     }
 
     /**
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
      * Display the password reset view for the given token.
      *
      * If no token is present, display the link request form.

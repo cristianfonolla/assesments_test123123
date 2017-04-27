@@ -7,7 +7,11 @@ return [
     | Default Queue Driver
     |--------------------------------------------------------------------------
     |
+<<<<<<< HEAD
     | Laravel's queue API supports an assortment of back-ends via a single
+=======
+    | The Laravel queue API supports a variety of back-ends via an unified
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     | API, giving you convenient access to each back-end using the same
     | syntax for each one. Here you may set the default queue driver.
     |
@@ -19,6 +23,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
     | Queue Prefix
     |--------------------------------------------------------------------------
     |
@@ -32,6 +37,8 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     | Queue Connections
     |--------------------------------------------------------------------------
     |

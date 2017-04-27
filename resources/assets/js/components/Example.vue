@@ -17,7 +17,11 @@
 <script>
     export default {
         mounted() {
+<<<<<<< HEAD
             console.log('Component mounted.')
+=======
+            console.log('Component ready.')
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
         }
     }
 </script>

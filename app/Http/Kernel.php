@@ -15,9 +15,12 @@ class Kernel extends HttpKernel
      */
     protected $middleware = [
         \Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode::class,
+<<<<<<< HEAD
         \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,
         \App\Http\Middleware\TrimStrings::class,
         \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     ];
 
     /**
@@ -30,7 +33,10 @@ class Kernel extends HttpKernel
             \App\Http\Middleware\EncryptCookies::class,
             \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
             \Illuminate\Session\Middleware\StartSession::class,
+<<<<<<< HEAD
             // \Illuminate\Session\Middleware\AuthenticateSession::class,
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,

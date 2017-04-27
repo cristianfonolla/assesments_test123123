@@ -110,7 +110,11 @@ return [
     'monitoring'              => 'Monitoratge',
     'whatnew'                 => 'Que hi ha de nou?',
     'features'                => 'Algunes Caracterísitques',
+<<<<<<< HEAD
     'retina'                  => 'Tema llest per a Retina',
+=======
+    'retina'                  => 'Tema llest en Redina',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     'support'                 => 'Suport impressionant',
     'responsive'              => 'Disseny adaptable',
     'screenshots'             => 'Algunes Captures de Pantalla',
@@ -121,6 +125,7 @@ return [
     'enteremail'              => 'Introduir el correu electrònic',
     'yourtext'                => 'El seu Text',
     'submit'                  => 'ENVIAR',
+<<<<<<< HEAD
     'email'                   => 'Correu electrònic',
     'username'                => 'Nom d\'usuari',
     'password'                => 'Contrasenya',
@@ -131,4 +136,10 @@ return [
     'loggedin'                => 'Login correcte!',
     'entering'                => 'Entrant...',
     'registered'              => 'Usuari registrat!',
+=======
+    'email'                   => 'Correu Electrònic',
+    'password'                => 'Contrasenya',
+    'retrypepassword'         => 'Reescriu la contrasenya',
+    'fullname'                => 'Nom complet',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 ];

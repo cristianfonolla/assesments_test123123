@@ -4,6 +4,22 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+<<<<<<< HEAD
+=======
+    | PDO Fetch Style
+    |--------------------------------------------------------------------------
+    |
+    | By default, database results will be returned as instances of the PHP
+    | stdClass object; however, you may desire to retrieve records in an
+    | array format for simplicity. Here you can tweak the fetch style.
+    |
+    */
+
+    'fetch' => PDO::FETCH_OBJ,
+
+    /*
+    |--------------------------------------------------------------------------
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     | Default Database Connection Name
     |--------------------------------------------------------------------------
     |
@@ -39,12 +55,15 @@ return [
             'prefix' => '',
         ],
 
+<<<<<<< HEAD
         'sqlite_testing' => [
             'driver' => 'sqlite',
             'database' => env('DB_DATABASE_TESTING', database_path('testing.database.sqlite')),
             'prefix' => '',
         ],
 
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
         'mysql' => [
             'driver' => 'mysql',
             'host' => env('DB_HOST', '127.0.0.1'),
@@ -52,9 +71,14 @@ return [
             'database' => env('DB_DATABASE', 'forge'),
             'username' => env('DB_USERNAME', 'forge'),
             'password' => env('DB_PASSWORD', ''),
+<<<<<<< HEAD
             'unix_socket' => env('DB_SOCKET', ''),
             'charset' => 'utf8mb4',
             'collation' => 'utf8mb4_unicode_ci',
+=======
+            'charset' => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
             'prefix' => '',
             'strict' => true,
             'engine' => null,
@@ -101,11 +125,19 @@ return [
 
     'redis' => [
 
+<<<<<<< HEAD
         'client' => 'predis',
 
         'default' => [
             'host' => env('REDIS_HOST', '127.0.0.1'),
             'password' => env('REDIS_PASSWORD', null),
+=======
+        'cluster' => false,
+
+        'default' => [
+            'host' => env('REDIS_HOST', '127.0.0.1'),
+            'password' => env('REDIS_PASSWORD', ''),
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
             'port' => env('REDIS_PORT', 6379),
             'database' => 0,
         ],

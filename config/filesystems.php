@@ -13,7 +13,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'default' => env('FILESYSTEM_DRIVER', 'local'),
+=======
+    'default' => 'local',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +30,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'cloud' => env('FILESYSTEM_CLOUD', 's3'),
+=======
+    'cloud' => 's3',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
     /*
     |--------------------------------------------------------------------------
@@ -51,16 +59,26 @@ return [
         'public' => [
             'driver' => 'local',
             'root' => storage_path('app/public'),
+<<<<<<< HEAD
             'url' => env('APP_URL').'/storage',
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
             'visibility' => 'public',
         ],
 
         's3' => [
             'driver' => 's3',
+<<<<<<< HEAD
             'key' => env('AWS_KEY'),
             'secret' => env('AWS_SECRET'),
             'region' => env('AWS_REGION'),
             'bucket' => env('AWS_BUCKET'),
+=======
+            'key' => 'your-key',
+            'secret' => 'your-secret',
+            'region' => 'your-region',
+            'bucket' => 'your-bucket',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
         ],
 
     ],

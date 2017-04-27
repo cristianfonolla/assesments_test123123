@@ -6,6 +6,7 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+<<<<<<< HEAD
         "acacha/admin-lte-template-laravel": "^4.1",
         "acacha/l5-repository": "dev-master",
         "barryvdh/laravel-debugbar": "^2.3",
@@ -13,11 +14,30 @@
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "scool/assesments": "dev-master"
+=======
+        "laravel/framework": "5.4.*",
+        "acacha/admin-lte-template-laravel": "dev-master",
+        "acacha/stateful-eloquent": "dev-master",
+        "barryvdh/laravel-ide-helper": "^2.2",
+        "barryvdh/laravel-debugbar": "^2.3",
+        "scool/assesments": "dev-master",
+        "prettus/l5-repository": "^2.6",
+        "guzzlehttp/guzzle": "^6.2",
+        "acacha/l5-repository": "^2.7",
+        "laravel/tinker": "^1.0",
+        "laravel/browser-kit-testing": "^1.0"
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
+<<<<<<< HEAD
         "phpunit/phpunit": "~5.7"
+=======
+        "phpunit/phpunit": "~5.0",
+        "symfony/css-selector": "3.1.*",
+        "symfony/dom-crawler": "3.1.*"
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     },
     "autoload": {
         "classmap": [
@@ -28,9 +48,15 @@
         }
     },
     "autoload-dev": {
+<<<<<<< HEAD
         "psr-4": {
             "Tests\\": "tests/"
         }
+=======
+        "classmap": [
+            "tests/TestCase.php"
+        ]
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     },
     "scripts": {
         "post-root-package-install": [
@@ -49,8 +75,12 @@
         ]
     },
     "config": {
+<<<<<<< HEAD
         "preferred-install": "dist",
         "sort-packages": true,
         "optimize-autoloader": true
+=======
+        "preferred-install": "dist"
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     }
 }

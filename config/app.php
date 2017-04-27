@@ -12,7 +12,11 @@ return [
     | any other location as required by the application or its packages.
     */
 
+<<<<<<< HEAD
     'name' => env('APP_NAME', 'Laravel'),
+=======
+    'name' => 'Laravel',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
     /*
     |--------------------------------------------------------------------------
@@ -162,6 +166,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+<<<<<<< HEAD
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
 
 
@@ -174,11 +179,20 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         #llum_providers
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
         /*
          * Package Service Providers...
          */
+<<<<<<< HEAD
         Laravel\Tinker\TinkerServiceProvider::class,
+=======
+        Scool\Assesments\Providers\AssesmentServiceProvider::class,
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        Laravel\Tinker\TinkerServiceProvider::class,
+        //
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
         /*
          * Application Service Providers...
@@ -188,6 +202,20 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
+=======
+        App\Providers\RepositoryServiceProvider::class,
+
+        /*
+         * Acacha Llum Service Providers...
+         *
+         * See: https://github.com/acacha/llum
+         */
+        Acacha\AdminLTETemplateLaravel\Providers\AdminLTETemplateServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        #llum_providers
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
     ],
 
@@ -208,7 +236,10 @@ return [
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
         'Auth' => Illuminate\Support\Facades\Auth::class,
         'Blade' => Illuminate\Support\Facades\Blade::class,
+<<<<<<< HEAD
         'Broadcast' => Illuminate\Support\Facades\Broadcast::class,
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
         'Bus' => Illuminate\Support\Facades\Bus::class,
         'Cache' => Illuminate\Support\Facades\Cache::class,
         'Config' => Illuminate\Support\Facades\Config::class,

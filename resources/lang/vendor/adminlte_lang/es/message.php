@@ -122,6 +122,7 @@ return [
     'yourtext'                => 'Su Texto',
     'submit'                  => 'ENVIAR',
     'email'                   => 'Correo Electrónico',
+<<<<<<< HEAD
     'username'                => 'Nombre de usuario',
     'password'                => 'Contraseña',
     'retypepassword'          => 'Vuelva a escribir la contraseña',
@@ -131,4 +132,9 @@ return [
     'loggedin'                => 'Login correcto!',
     'entering'                => 'Entrando...',
     'registered'              => 'Usuario registrado!',
+=======
+    'password'                => 'Contraseña',
+    'retrypepassword'         => 'Vuelva a escribir la contraseña',
+    'fullname'                => 'Nombre completo',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 ];

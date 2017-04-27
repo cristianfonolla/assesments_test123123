@@ -124,6 +124,7 @@ return [
     'yourtext'                => 'Your Text',
     'submit'                  => 'SUBMIT',
     'email'                   => 'Email',
+<<<<<<< HEAD
     'username'                => 'Username',
     'password'                => 'Password',
     'retypepassword'          => 'Retype password',
@@ -133,4 +134,9 @@ return [
     'loggedin'                => 'Logged in!',
     'entering'                => 'Entering...',
     'registered'              => 'User Registered!',
+=======
+    'password'                => 'Password',
+    'retrypepassword'         => 'Retype password',
+    'fullname'                => 'Full Name',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 ];

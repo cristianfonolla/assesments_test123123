@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 /* global _ Vue */
 
 window._ = require('lodash')
+=======
+
+window._ = require('lodash');
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support
@@ -8,6 +13,7 @@ window._ = require('lodash')
  * code may be modified to fit the specific needs of your application.
  */
 
+<<<<<<< HEAD
 window.$ = window.jQuery = require('jquery')
 
 require('bootstrap-less')
@@ -15,6 +21,14 @@ require('bootstrap-less')
 require('admin-lte')
 window.toastr = require('toastr')
 require('icheck')
+=======
+window.$ = window.jQuery = require('jquery');
+require('bootstrap-sass');
+
+require('admin-lte');
+window.toastr = require('toastr');
+require('icheck');
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
 /**
  * Vue is a modern JavaScript library for building interactive web interfaces
@@ -22,6 +36,7 @@ require('icheck')
  * and simple, leaving you to focus on building your next great project.
  */
 
+<<<<<<< HEAD
 window.Vue = require('vue')
 
 /**
@@ -47,6 +62,22 @@ Vue.component('register-form', require('./components/auth/RegisterForm.vue'))
 Vue.component('login-form', require('./components/auth/LoginForm.vue'))
 Vue.component('email-reset-password-form', require('./components/auth/EmailResetPasswordForm.vue'))
 Vue.component('reset-password-form', require('./components/auth/ResetPasswordForm.vue'))
+=======
+window.Vue = require('vue');
+require('vue-resource');
+
+/**
+ * We'll register a HTTP interceptor to attach the "CSRF" header to each of
+ * the outgoing requests issued by this application. The CSRF middleware
+ * included with Laravel will automatically verify the header's value.
+ */
+
+Vue.http.interceptors.push((request, next) => {
+    request.headers['X-CSRF-TOKEN'] = Laravel.csrfToken;
+
+    next();
+});
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
@@ -54,9 +85,13 @@ Vue.component('reset-password-form', require('./components/auth/ResetPasswordFor
  * allows your team to easily build robust real-time web applications.
  */
 
+<<<<<<< HEAD
 // import Echo from 'laravel-echo'
 
 // window.Pusher = require('pusher-js');
+=======
+// import Echo from "laravel-echo"
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
 // window.Echo = new Echo({
 //     broadcaster: 'pusher',

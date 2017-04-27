@@ -4,9 +4,12 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
+<<<<<<< HEAD
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
 class ForgotPasswordController extends Controller
 {
@@ -24,6 +27,7 @@ class ForgotPasswordController extends Controller
     use SendsPasswordResetEmails;
 
     /**
+<<<<<<< HEAD
      * Send a reset link to the given user.
      *
      * @param  \Illuminate\Http\Request $request
@@ -79,6 +83,8 @@ class ForgotPasswordController extends Controller
     }
 
     /**
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
      * Display the form to request a password reset link.
      *
      * @return \Illuminate\Http\Response

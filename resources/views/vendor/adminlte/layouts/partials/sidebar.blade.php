@@ -34,6 +34,7 @@
             <li class="header">{{ trans('adminlte_lang::message.header') }}</li>
             <!-- Optionally, you can add icons to the links -->
             <li class="active"><a href="{{ url('home') }}"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.home') }}</span></a></li>
+<<<<<<< HEAD
             <li><a href="#"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.anotherlink') }}</span></a></li>
             <li class="treeview">
                 <a href="#"><i class='fa fa-link'></i> <span>{{ trans('adminlte_lang::message.multilevel') }}</span> <i class="fa fa-angle-left pull-right"></i></a>
@@ -42,6 +43,11 @@
                     <li><a href="#">{{ trans('adminlte_lang::message.linklevel2') }}</a></li>
                 </ul>
             </li>
+=======
+            <li><a href="/profile/tokens"><i class='fa fa-link'></i> <span>Tokens</span></a></li>
+            <li><a href="/assesments"><i class='fa fa-link'></i> <span>Assesments</span></a></li>
+
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
         </ul><!-- /.sidebar-menu -->
     </section>
     <!-- /.sidebar -->

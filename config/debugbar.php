@@ -147,7 +147,11 @@ return [
      | Inject Debugbar in Response
      |--------------------------------------------------------------------------
      |
+<<<<<<< HEAD
      | Usually, the debugbar is added just before </body>, by listening to the
+=======
+     | Usually, the debugbar is added just before <body>, by listening to the
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
      | Response after the App is done. If you disable this, you have to add them
      | in your template yourself. See http://phpdebugbar.com/docs/rendering.html
      |

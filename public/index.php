@@ -15,7 +15,11 @@
 | Composer provides a convenient, automatically generated class loader for
 | our application. We just need to utilize it! We'll simply require it
 | into the script here so that we don't have to worry about manual
+<<<<<<< HEAD
 | loading any of our classes later on. It feels great to relax.
+=======
+| loading any of our classes later on. It feels nice to relax.
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 |
 */
 

@@ -4,7 +4,10 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
+<<<<<<< HEAD
 use Illuminate\Http\Request;
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
 class LoginController extends Controller
 {
@@ -19,9 +22,13 @@ class LoginController extends Controller
     |
     */
 
+<<<<<<< HEAD
     use AuthenticatesUsers {
         attemptLogin as attemptLoginAtAuthenticatesUsers;
     }
+=======
+    use AuthenticatesUsers;
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 
     /**
      * Show the application's login form.
@@ -49,6 +56,7 @@ class LoginController extends Controller
     {
         $this->middleware('guest', ['except' => 'logout']);
     }
+<<<<<<< HEAD
 
     /**
      * Returns field name to use at login.
@@ -89,4 +97,6 @@ class LoginController extends Controller
     }
 
 
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 }

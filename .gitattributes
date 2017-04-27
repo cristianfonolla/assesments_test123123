@@ -1,5 +1,8 @@
 * text=auto
 *.css linguist-vendored
 *.scss linguist-vendored
+<<<<<<< HEAD
 *.js linguist-vendored
 CHANGELOG.md export-ignore
+=======
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08

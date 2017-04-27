@@ -41,7 +41,11 @@ return [
     'email'                => 'The :attribute must be a valid email address.',
     'exists'               => 'The selected :attribute is invalid.',
     'file'                 => 'The :attribute must be a file.',
+<<<<<<< HEAD
     'filled'               => 'The :attribute field must have a value.',
+=======
+    'filled'               => 'The :attribute field is required.',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
     'image'                => 'The :attribute must be an image.',
     'in'                   => 'The selected :attribute is invalid.',
     'in_array'             => 'The :attribute field does not exist in :other.',

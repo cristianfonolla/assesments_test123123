@@ -125,6 +125,7 @@ return [
     'submit'                  => 'ENVOYER',
     'email'                   => 'Adresse de courriel',
     'password'                => 'Mot de passe',
+<<<<<<< HEAD
     'retypepassword'          => 'Resaisir le mot de passe',
     'fullname'                => 'Nom complet',
     'registererror'           => 'Error registering!',
@@ -132,4 +133,8 @@ return [
     'loggedin'                => 'Login correcte!',
     'entering'                => 'Entrant...',
     'registered'              => 'User Registered!',
+=======
+    'retrypepassword'         => 'Resaisir le mot de passe',
+    'fullname'                => 'Nom complet',
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
 ];

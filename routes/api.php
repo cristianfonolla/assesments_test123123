@@ -13,6 +13,7 @@ use Illuminate\Http\Request;
 |
 */
 
+<<<<<<< HEAD
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
@@ -23,3 +24,15 @@ Route::group(['prefix' => 'v1','middleware' => 'auth:api'], function () {
     //Please do not remove this if you want adminlte:route and adminlte:link commands to works correctly.
     #adminlte_api_routes
 });
+=======
+Route::get('/user', function (Request $request) {
+    return $request->user();
+})->middleware('auth:api');
+
+
+Route::group(['prefix' => 'v1'], function () {
+
+//    Route::resource('assesments' , 'AssesmentsController');
+
+});
+>>>>>>> aa3e909b7565fbbbf472e753bcc6fdb6e08b2c08
